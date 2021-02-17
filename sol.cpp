@@ -9,8 +9,7 @@ int main() {
 	cin >> tt;
 	while (tt--) {
 		// create two hashmaps, one for the score, and the other is for the goal difference
-		map<string, int> mp;
-		map<string, int> goal_difference;
+		map<string, int> mp, goal_difference;
 		for (int i = 0; i < 12; i++) {
 			string home_team_name, away_team_name, versus;
 			int home_team_goals, away_team_goals;
